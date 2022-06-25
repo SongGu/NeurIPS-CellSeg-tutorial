@@ -1,4 +1,4 @@
-BASELINE
+baseline
 ====
 
 .. autosummary::
