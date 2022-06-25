@@ -1,4 +1,6 @@
-API
+myself
+===
+
 .. autosummary::
    :toctree: generated
 
