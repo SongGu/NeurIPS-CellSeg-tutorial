@@ -1,4 +1,4 @@
-MYSELF
+BASELINE
 ====
 
 .. autosummary::
