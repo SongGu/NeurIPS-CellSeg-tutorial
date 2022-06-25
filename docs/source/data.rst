@@ -1,4 +1,4 @@
-API
+data
 ===
 
 .. autosummary::
