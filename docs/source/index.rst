@@ -18,6 +18,7 @@ Contents
 
 .. toctree::
 
-   usage
-   api
-   myself
+   preprocessing
+   training
+   inference
+   build-docker
