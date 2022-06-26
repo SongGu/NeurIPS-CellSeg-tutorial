@@ -1,4 +1,4 @@
-Usage
+Inference
 =====
 
 .. _installation:
