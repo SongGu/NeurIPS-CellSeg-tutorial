@@ -2,8 +2,7 @@ Welcome to NeurIPS-CellSeg documentation!
 ===================================
 
 
-This is the tutorial of `matplotlib <http://matplotlib.org/>`_
-how to :ref:`installation` the project.
+This is the tutorial of `NeurIPS CellSeg Challenge <https://neurips22-cellseg.grand-challenge.org/>`_.
 
 .. note::
 
