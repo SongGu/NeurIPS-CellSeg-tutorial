@@ -40,9 +40,6 @@ CellSeg Test
 --------
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
-   preprocessing
-   training
-   inference
-   build-docker
+   test
