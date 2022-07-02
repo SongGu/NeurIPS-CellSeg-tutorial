@@ -9,7 +9,7 @@ There is a `blog post <http://peak5390.wordpress.com/2012/12/08/matplotlib-basem
 Downloading the tutorial
 
 Evaluation Platform
-------------------------
+=============
 All the files, including the documentation and the sample files are at GitHub: https://github.com/rveciana/BasemapTutorial
 
 If you have GIT installed, you can clone the project by typing 
@@ -19,5 +19,5 @@ If you have GIT installed, you can clone the project by typing
 
 
 Ranking Scheme
-------------------------
+=============
 scheme
