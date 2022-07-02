@@ -1,23 +1,23 @@
 Evaluation Metrics
 =============
-The objective of this tutorial was to show how to use Basemap, since the installation part is very well documented at `the official docs <http://matplotlib.org/basemap/users/installing.html>`_. 
+- F1 Score
+-Running time (Please limit the maximum consumption of GPU memory to 1500MB and RAM to 28GB)
 
-@@ -9,10 +9,14 @@ In my case, I used Basemap in several Linux configurations.
-
-There is a `blog post <http://peak5390.wordpress.com/2012/12/08/matplotlib-basemap-tutorial-installing-matplotlib-and-basemap/>`_ explaining all the options
-
-Downloading the tutorial
 
 Evaluation Platform
 =============
-All the files, including the documentation and the sample files are at GitHub: https://github.com/rveciana/BasemapTutorial
-
-If you have GIT installed, you can clone the project by typing 
-
-	git clone https://github.com/rveciana/BasemapTutorial.git
-	git clone https://github.com/rveciana/BasemapTutorial.git
+The submitted docker containers will be evaluated on a Ubuntu 20.04 desktop. Detailed information is listed as follows:	
+- CPU: Intel® Xeon(R) W-2133 CPU @ 3.60GHz × 12
+- GPU: NVIDIA QUADRO P400 **(Available memory 1500 MB)**
+- RAM: **28G**
+- Driver Version: 510.60.02   
+- CUDA Version: 11.6
+- Docker version 20.10.13
 
 
 Ranking Scheme
 =============
-scheme
+Both F1 score and running time are used in the ranking scheme. However, the two metrics cannot be directly fused because they have different dimensions. Thus, we use a “rank-then-aggregate" scheme for ranking, including the following three steps:	
+- Step 1. Computing the two metrics for each testing case and each team;
+- Step 2. Ranking teams for each of the N testing cases such that each team obtains Nx2 rankings;
+- Step 3. Computing ranking scores for all teams by averaging all these rankings and then normalizing them by the number of teams.
