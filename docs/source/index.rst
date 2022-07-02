@@ -33,9 +33,17 @@ Baseline
    preprocessing
    training
    inference
+
+
+Docker Tutorial
+--------
+
+.. toctree::
+    :maxdepth: 2
+
    build-docker
-
-
+   
+   
 CellSeg Test
 --------
 
