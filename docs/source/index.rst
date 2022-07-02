@@ -10,11 +10,37 @@ Cell Segmentation is usually the first step for downstream single-cell analysis 
 .. note::
 
    This project is under active development.
+   
 
-Contents
+Data
 --------
 
 .. toctree::
+    :maxdepth: 2
+
+   preprocessing
+   training
+   inference
+   build-docker
+   
+
+Baseline
+--------
+
+.. toctree::
+    :maxdepth: 2
+
+   preprocessing
+   training
+   inference
+   build-docker
+
+
+CellSeg Test
+--------
+
+.. toctree::
+    :maxdepth: 2
 
    preprocessing
    training
