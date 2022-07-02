@@ -1,4 +1,4 @@
-Welcome to NeurIPS-CellSeg documentation!
+Welcome to `NeurIPS CellSeg Challenge <https://neurips22-cellseg.grand-challenge.org/>`_ documentation!
 ===================================
 
 
